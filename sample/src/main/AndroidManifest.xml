@@ -30,6 +30,8 @@
         <activity android:name=".ActivityTransitionActivity"/>
 
         <activity android:name=".ActivityTransitionToActivity"/>
+
+        <activity android:name=".PicassoSamplePopUpActivity"/>
     </application>
 
 </manifest>

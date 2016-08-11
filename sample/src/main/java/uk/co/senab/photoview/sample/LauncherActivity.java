@@ -28,7 +28,8 @@ import android.widget.TextView;
 
 public class LauncherActivity extends AppCompatActivity {
 
-    public static final String[] options = {"Simple Sample", "ViewPager Sample", "Rotation Sample", "Picasso Sample", "Activity Transition Sample"};
+    public static final String[] options = {"Simple Sample", "ViewPager Sample", "Rotation Sample",
+            "Picasso Sample", "Activity Transition Sample", "Picasso PopUp Sample"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,6 +71,9 @@ public class LauncherActivity extends AppCompatActivity {
                             break;
                         case 4:
                             c = ActivityTransitionActivity.class;
+                            break;
+                        case 5:
+                            c = PicassoSamplePopUpActivity.class;
                             break;
                     }
 
