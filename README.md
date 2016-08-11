@@ -1,3 +1,7 @@
+Adds Sample which displays PhotoView image in a popUp view
+![Before](https://github.com/codeteo/PhotoViewPopUp/blob/master/art/sample_1.png)
+![After](https://github.com/codeteo/PhotoViewPopUp/blob/master/art/sample_final.png)
+
 # PhotoView
 PhotoView aims to help produce an easily usable implementation of a zooming Android ImageView.
 
